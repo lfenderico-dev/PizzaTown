@@ -1,17 +1,16 @@
 <template>
-  <div id="page">
+  <div>
+    <IntroSection />
+    <AboutUs />
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AboutUs from '@/components/HomePage/AboutUs.vue';
+import IntroSection from '@/components/HomePage/IntroSection.vue';
+
+</script>
 
 <style scoped>
-#page{
-  background-image: url('/src/assets/photo/background.jpg');
-  height: 100vh;
-  width: 100vw;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 </style>
