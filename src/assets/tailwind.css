@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-tangerine: #f3955b;
+  --color-sinopia: #ca2c06;
+  --color-bloodRed: #611103;
+  --color-eerieBlack: #191a19;
+}
