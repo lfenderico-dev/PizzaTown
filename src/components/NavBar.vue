@@ -4,13 +4,21 @@
     <nav class="text-white flex justify-end gap-3 h-full items-center">
       <router-link to="/">Home</router-link>
       <router-link to="/menu">Menu</router-link>
-      <button>About</button>
-      <button>Contact</button>
+      <button @click="toAbout">About</button>
+      <button @click="toContact">Contact</button>
     </nav>
   </header>
 </template>
 
 <script setup lang="ts">
+const toAbout = () => {
+  document.getElementById('AboutSection')?.scrollIntoView()
+}
+
+const toContact = () => {
+  document.getElementById('Footer')?.scrollIntoView()
+}
+
 </script>
 
 <style scoped>
