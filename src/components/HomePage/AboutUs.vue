@@ -1,7 +1,7 @@
 <template>
   <div id="section2">
     <img class="p-10 rounded-full " src="/src/assets/photo/chef.jpg" alt="Chef photo">
-    <h1 class="text-red-700 font-bold flex justify-center text-2xl">About Us:</h1>
+    <h1 class="text-red-700 font-bold text-center text-3xl ">About Us:</h1>
     <p class="my-2 text-center mx-5 text-md text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quo quam ab placeat vero fuga, explicabo optio, incidunt sit repudiandae amet aspernatur excepturi tempora maiores repellat corporis nihil dolor rem.</p>
   </div>
 </template>

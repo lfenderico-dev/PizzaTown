@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-10" id="Footer">
     <div class="flex flex-col gap-5">
-      <h1 class="text-red-700 text-center text-2xl font-bold mt-10">Opening hours</h1>
+      <h1 class="text-red-700 text-center text-3xl font-bold mt-10">Opening hours</h1>
       <div class="flex flex-col gap-3 text-md ">
         <div class="flex flex-row gap-1 justify-center">
           <h1 class="text-amber-500 font-bold">Monday....</h1>
@@ -41,7 +41,7 @@
     </div>
 
     <div class="flex flex-col gap-5">
-      <h1 class="text-red-700 text-center text-2xl font-bold mt-10">Contact informations</h1>
+      <h1 class="text-red-700 text-center text-3xl font-bold mt-10">Contact informations</h1>
       <address class="flex flex-col gap-3">
         <div class="flex flex-row text-md text-white mx-5 gap-3">
           <i class="fa-solid fa-phone-volume text-amber-500"></i>

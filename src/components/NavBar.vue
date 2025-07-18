@@ -15,7 +15,7 @@
 
 <style scoped>
 header{
-  font-size: 12px;
+  font-size: 13px;
   color: white;
 }
 #logo {

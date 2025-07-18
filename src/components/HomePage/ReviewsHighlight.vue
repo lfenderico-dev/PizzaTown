@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black h-450 flex flex-col">
-    <h1 class="text-amber-500 text-2xl text-center pt-10 mb-2 font-bold">Review Section</h1>
-    <p class="text-white text-center">The opinion of others is also important as yours</p>
+    <h1 class="text-amber-500 text-3xl text-center pt-10 mb-2 font-bold">Review Section</h1>
+    <p class="text-white text-center mx-5">The opinion of others is also important as yours</p>
     <div class="mx-5 h-full flex items-center">
       <div class="flex flex-col gap-30 items-center">
         <div>

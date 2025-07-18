@@ -1,6 +1,6 @@
 <template>
   <div class="h-100 bg-red-900 flex flex-col">
-    <h1 class="text-center font-bold text-2xl text-amber-500 pt-8">Your review</h1>
+    <h1 class="text-center font-bold text-3xl text-amber-500 pt-8">Your review</h1>
     <p class="text-center mx-5 text-white pt-1">Your review is also important, leave it below!</p>
 
     <div class="flex flex-col mt-10 gap-3">
