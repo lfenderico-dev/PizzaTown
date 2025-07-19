@@ -1,7 +1,7 @@
 <template>
   <div>
       <div id="section1" class="flex flex-col">
-      <h1 class="text-white text-center font-bold text-3xl mt-8">"The Taste Of Naples"</h1>
+      <h1 class="text-white text-center font-bold text-3xl mt-3">"The Taste Of Naples"</h1>
       <p class="text-white text-center mx-10 mt-2 text-sm">When you come to Naples the first wish is to try Pizza, and this is the best place to make it come true!</p>
       </div>
   </div>

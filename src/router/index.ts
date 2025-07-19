@@ -29,7 +29,7 @@ const router = createRouter({
           component: OtherView,
         },
         {
-          path: '/drinks',
+          path: '/drink',
           name: 'drinks',
           component: DrinksView,
         },
