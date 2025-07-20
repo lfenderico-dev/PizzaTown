@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-black h-450 flex flex-col">
+  <div class="bg-black h-fit flex flex-col">
     <h1 class="text-amber-500 text-3xl text-center pt-10 mb-2 font-bold">Review Section</h1>
-    <p class="text-white text-center mx-5">The opinion of others is also important as yours</p>
-    <div class="mx-5 h-full flex items-center">
+    <p class="text-white text-center mx-5 mb-15">The opinion of others is also important as yours</p>
+    <div class="mx-5 h-full flex items-center mb-30">
       <div class="flex flex-col gap-30 items-center">
         <div>
           <img class="rounded-full" src="/src/assets/photo/people-portrait/portrait1.jpg">

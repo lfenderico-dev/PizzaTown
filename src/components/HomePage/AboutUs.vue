@@ -1,8 +1,12 @@
 <template>
-  <div id="AboutSection">
-    <img class="p-10 rounded-full " src="/src/assets/photo/chef.jpg" alt="Chef photo">
-    <h1 class="text-red-700 font-bold text-center text-3xl ">About Us:</h1>
-    <p class="my-2 text-center mx-5 text-md text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quo quam ab placeat vero fuga, explicabo optio, incidunt sit repudiandae amet aspernatur excepturi tempora maiores repellat corporis nihil dolor rem.</p>
+  <div class="flex flex-col pb-15 min-h-screen" id="AboutSection">
+    <img class="p-10 rounded-full w-[100%] object-cover mx-auto"
+         src="/src/assets/photo/chef.jpg"
+         alt="Chef photo">
+    <h1 class="text-red-700 font-bold text-center text-3xl">About Us:</h1>
+    <p class="my-2 text-center mx-5 text-md text-white max-w-2xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quo quam ab placeat vero fuga, explicabo optio, incidunt sit repudiandae amet aspernatur excepturi tempora maiores repellat corporis nihil dolor rem.
+    </p>
   </div>
 </template>
 
@@ -13,7 +17,7 @@
 <style scoped>
 #AboutSection{
   background-image: url('/src/assets/photo/blackBg.png');
-  height: 100vh;
+  height: fit-content;
   width: 100vw;
   background-position: center;
   background-size: cover;
