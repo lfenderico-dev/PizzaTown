@@ -17,7 +17,7 @@
           <p class="text-white italic text-center mt-3 sm:text-lg lg:text-xl xl:text-2xl">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quae!""</p>
         </div>
         <div>
-          <img loading="lazy" src="/src/assets/photo/people-portrait/portrait2.jpg">
+          <img loading="lazy" class="rounded-full w-[100%] sm:w-[70%] lg:[60%] xl:w-[55%] mx-auto" src="/src/assets/photo/people-portrait/portrait2.jpg">
           <h1 class="text-red-700 font-bold text-center text-2xl sm:text-3xl lg:text-4xl xl:text-5xl mt-3">Carlos</h1>
           <div class="flex flex-row text-amber-300 justify-center mt-3 sm:text-2xl lg:text-3xl xl:text-4xl">
             <i class="fa-solid fa-star"></i>
