@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col pb-15 h-fit lg:flex-row " id="AboutSection">
-    <img class="p-10 rounded-full w-[100%] object-cover mx-auto sm:w-[75%] lg:w-[150%] m-auto"
+    <img loading="lazy"  class="p-10 rounded-full w-[100%] object-cover mx-auto sm:w-[75%] lg:w-[150%] m-auto"
          src="/src/assets/photo/chef.jpg"
          alt="Chef photo">
     <div class="flex flex-col m-auto">
