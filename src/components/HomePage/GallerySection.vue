@@ -1,6 +1,6 @@
 <template>
   <div id="gallerySection" class="flex flex-col gap-10">
-    <h1 class="text-center text-3xl text-white mt-8 font-bold">Gallery</h1>
+    <h1 class="text-center text-3xl sm:text-4xl text-white mt-8 font-bold">Gallery</h1>
     <div class="mx-5 h-fit flex items-center">
       <div class="flex flex-row overflow-x-auto w-full h-55 rounded-2xl">
         <img src="/src/assets/photo/gallery-photos/image1.jpg" />

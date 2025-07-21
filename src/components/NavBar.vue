@@ -1,7 +1,7 @@
 <template>
-  <header class=" bg-eerieBlack h-20 flex justify-start gap-5 px-3 py-1">
-    <p id="logo" class="flex justify-start h-full items-center gap-1"><img class="w-8" src="/src/assets/icons/pizzaIcon.png" alt="Pizza image">PizzaTown</p>
-    <nav class="text-white flex justify-end gap-3 h-full items-center">
+  <header class="text-white bg-eerieBlack h-20 flex gap-5 px-3">
+    <p class="text-[16px] flex justify-start h-full items-center gap-2 sm:text-2xl"><img class="w-8 sm:w-12" src="/src/assets/icons/pizzaIcon.png" alt="Pizza image">PizzaTown</p>
+    <nav class="text-white flex justify-end gap-3 h-full items-center w-full text-[13px] pr-1 sm:text-lg">
       <router-link to="/">Home</router-link>
       <router-link to="/menu">Menu</router-link>
       <button @click="toAbout">About</button>
@@ -22,13 +22,4 @@ const toContact = () => {
 </script>
 
 <style scoped>
-header{
-  font-size: 13px;
-  color: white;
-}
-#logo {
-  font-size: 16px;
-}
-
-
 </style>
