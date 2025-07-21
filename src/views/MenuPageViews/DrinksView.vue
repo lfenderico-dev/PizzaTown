@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col" id="drinkPage">
+  <div class="flex flex-col lg:grid lg:grid-cols-2" id="drinkPage">
     <div class="flex flex-col m-15 gap-3 rounded-2xl text-white hover:border-4 p-5 shadow-2xl shadow-red-700">
       <img class="w-[90%] sm:w-[60%] mx-auto" src="/src/assets/photo/menu/water.png">
       <h1 class="text-center text-2xl sm:text-3xl font-bold text-white">Water</h1>
