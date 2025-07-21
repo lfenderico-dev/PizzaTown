@@ -4,8 +4,8 @@
          src="/src/assets/photo/chef.jpg"
          alt="Chef photo">
     <div class="flex flex-col m-auto">
-      <h1 class="text-red-700 font-bold text-center text-3xl sm:text-4xl lg:text-5xl">About Us:</h1>
-      <p class="my-2 text-center mx-5 text-md sm:text-lg text-white lg:text-xl">
+      <h1 class="text-red-700 font-bold text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">About Us:</h1>
+      <p class="my-2 text-center mx-5 text-md sm:text-lg text-white lg:text-xl xl:text-2xl">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quo quam ab placeat vero fuga, explicabo optio, incidunt sit repudiandae amet aspernatur excepturi tempora maiores repellat corporis nihil dolor rem.
       </p>
     </div>
