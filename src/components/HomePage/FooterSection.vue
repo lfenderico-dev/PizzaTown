@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col gap-10" id="Footer">
     <div class="flex flex-col gap-5">
-      <h1 class="text-red-700 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mt-10">Opening hours</h1>
-      <div class="flex flex-col gap-3 text-md sm:text-lg lg:text-xl xl:text-2xl">
+      <h1 data-aos="fade-right" data-aos-offset="250" data-aos-duration="800" data-aos-delay="200"  class="text-red-700 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mt-10">Opening hours</h1>
+      <div data-aos="zoom-in-down" data-aos-offset="250" data-aos-duration="800" data-aos-delay="200"  class="flex flex-col gap-3 text-md sm:text-lg lg:text-xl xl:text-2xl">
         <div class="flex flex-row gap-1 justify-center">
           <h1 class="text-amber-500 font-bold">Monday....</h1>
           <p class="text-white">19:00 - 22:00</p>
@@ -41,8 +41,8 @@
     </div>
 
     <div class="flex flex-col gap-5">
-      <h1 class="text-red-700 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mt-10">Contact informations</h1>
-      <address class="flex flex-col gap-3 text-md sm:text-lg lg:text-xl xl:text-2xl">
+      <h1 data-aos="fade-right" data-aos-offset="200" data-aos-duration="800"  class="text-red-700 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mt-10">Contact informations</h1>
+      <address data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="800"  class="flex flex-col gap-3 text-md sm:text-lg lg:text-xl xl:text-2xl">
         <div class="flex flex-row text-md text-white gap-3 w-full justify-center">
           <i class="fa-solid fa-phone-volume text-amber-500"></i>
           <h1 class="text-amber-500 font-bold">Phone number |</h1>

@@ -1,6 +1,14 @@
 import './assets/tailwind.css'
+import 'aos/dist/aos.css'
+import AOS from 'aos'
 
-import { createApp } from 'vue'
+onMounted(() => {
+  AOS.refresh()
+})
+
+AOS.init()
+
+import { createApp, onMounted } from 'vue'
 import App from './App.vue'
 import router from './router'
 
